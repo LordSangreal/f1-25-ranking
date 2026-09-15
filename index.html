@@ -175,8 +175,8 @@ function showRank(id, btn) {
 </table></div>
 </div>
 <div class="rankpage" id="rp-top3">
-<h2>🏁 Melhores Voltas por Pista — Top 3</h2>
-<div class="sub">Na ordem das corridas. Volta mais rápida de corrida dos pilotos do ranking, com diferença para a melhor. 1ª liga = 36708 (finalizada) · 2ª liga = 37642 (em andamento).</div>
+<h2>🏁 Melhores Voltas de Corrida por Pista — Top 3</h2>
+<div class="sub">Na ordem das corridas. Volta mais rápida de corrida dos pilotos do ranking, com diferença para a melhor. 1ª liga = 36708 (finalizada) · 2ª liga = 37642 (em andamento). Tempos de quali na tabela ⏱️ abaixo.</div>
 <div class="tbl"><table><tr><th></th><th>Tempo</th><th>Piloto</th><th>Dif.</th><th>Liga/Evento</th></tr>
 <tr class="trackhead"><td colspan="5">R01 · Australia</td></tr>
 <tr><td class="medal">🥇</td><td class="time">1:24.045</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323613</td></tr>
@@ -275,8 +275,13 @@ function showRank(id, btn) {
 <tr><td class="medal">🥈</td><td class="time">1:29.055</td><td class="piloto">Bhering20</td><td class="gap">+0.243s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
 <tr><td class="medal">🥉</td><td class="time">1:29.188</td><td class="piloto">RarinLace115014</td><td class="gap">+0.376s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
 </table></div>
+<h2>⏱️ Melhores Voltas de Quali por Pista — Top 3</h2>
+<div class="sub">Mesma ordem de pistas (R01–R24). Fonte: live_ingestion.json → events[].qualifying — hoje vazio, pois a API do Racenet só entrega resultados de corrida. Assim que os tempos de quali forem ingeridos, cada pista ganha 🥇🥈🥉 no mesmo formato da tabela de corrida.</div>
+<div class="tbl"><table><tr><th></th><th>Tempo</th><th>Piloto</th><th>Dif.</th><th>Liga/Evento</th></tr>
+<tr><td class="medal">⏱️</td><td class="time">—</td><td class="piloto">Sem tempos de quali ingeridos</td><td class="gap"></td><td class="gap">vale para as 24 pistas</td></tr>
+</table></div>
 </div>
-<div class="footer"><b>F1 25</b> · Ligas Racenet 36708 (finalizada) e 37642 (em andamento) · tempos de volta em sessão de corrida</div>
+<div class="footer"><b>F1 25</b> · Ligas Racenet 36708 (finalizada) e 37642 (em andamento) · corrida: tempos de volta em sessão de corrida · quali: top 3 por pista (aguardando ingestão)</div>
 </div>
 </body>
 </html>
