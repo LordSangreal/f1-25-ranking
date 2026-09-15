@@ -25,6 +25,8 @@ td.num{font-family:Consolas,monospace;}tr td:first-child{font-weight:800;color:#
 .piloto{font-weight:700;color:#fff;}
 .pts{font-weight:800;color:#fff;font-family:Consolas,monospace;font-size:.95rem;}
 .hum{display:inline-block;background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.5);color:#4ade80;padding:1px 8px;border-radius:3px;font-size:.66rem;font-weight:800;letter-spacing:1px;}
+.sq{display:inline-block;background:rgba(96,165,250,.15);border:1px solid rgba(96,165,250,.5);color:#93c5fd;padding:1px 8px;border-radius:3px;font-size:.66rem;font-weight:800;letter-spacing:1px;}
+.sr{display:inline-block;background:rgba(225,6,0,.15);border:1px solid rgba(225,6,0,.5);color:#ff5a5a;padding:1px 8px;border-radius:3px;font-size:.66rem;font-weight:800;letter-spacing:1px;}
 .bot{display:inline-block;background:#1f1f23;border:1px solid #3a3a40;color:#a0a0a0;padding:1px 8px;border-radius:3px;font-size:.66rem;font-weight:800;letter-spacing:1px;}
 .time{font-family:Consolas,monospace;font-weight:800;color:#ff5a5a;}
 .gap{font-family:Consolas,monospace;color:#8a8a8e;font-size:.72rem;}
@@ -175,208 +177,181 @@ function showRank(id, btn) {
 </table></div>
 </div>
 <div class="rankpage" id="rp-top3">
-<h2>🏁 Melhores Voltas de Corrida por Pista — Top 3</h2>
-<div class="sub">Na ordem das corridas. Volta mais rápida de corrida dos pilotos do ranking, com diferença para a melhor. 1ª liga = 36708 (finalizada) · 2ª liga = 37642 (em andamento). Tempos de quali na tabela ⏱️ abaixo.</div>
-<div class="tbl"><table><tr><th></th><th>Tempo</th><th>Piloto</th><th>Dif.</th><th>Liga/Evento</th></tr>
-<tr class="trackhead"><td colspan="5">R01 · Australia</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:24.045</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323613</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:25.924</td><td class="piloto">ifinin1</td><td class="gap">+1.879s</td><td class="gap">1ª liga · 36708 · Ev 323613</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:34.601</td><td class="piloto">RarinLace115014</td><td class="gap">+10.556s</td><td class="gap">1ª liga · 36708 · Ev 323613</td></tr>
-<tr class="trackhead"><td colspan="5">R02 · China</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:37.674</td><td class="piloto">WuillyFox</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:38.498</td><td class="piloto">RarinLace115014</td><td class="gap">+0.824s</td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:39.422</td><td class="piloto">LordSangreal</td><td class="gap">+1.748s</td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
-<tr class="trackhead"><td colspan="5">R03 · Japan</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:33.808</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:34.274</td><td class="piloto">RarinLace115014</td><td class="gap">+0.466s</td><td class="gap">1ª liga · 36708 · Ev 323615</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:34.655</td><td class="piloto">Bhering20</td><td class="gap">+0.847s</td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
-<tr class="trackhead"><td colspan="5">R04 · Bahrain</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:33.917</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:34.069</td><td class="piloto">LordSangreal</td><td class="gap">+0.152s</td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:34.247</td><td class="piloto">RarinLace115014</td><td class="gap">+0.330s</td><td class="gap">1ª liga · 36708 · Ev 323616</td></tr>
-<tr class="trackhead"><td colspan="5">R05 · Saudi Arabia</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:33.944</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:35.145</td><td class="piloto">RarinLace115014</td><td class="gap">+1.201s</td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:35.523</td><td class="piloto">RarinLace115014</td><td class="gap">+1.579s</td><td class="gap">1ª liga · 36708 · Ev 323617</td></tr>
-<tr class="trackhead"><td colspan="5">R06 · Miami</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:32.215</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:32.470</td><td class="piloto">iARTwx</td><td class="gap">+0.255s</td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:32.601</td><td class="piloto">Bhering20</td><td class="gap">+0.386s</td><td class="gap">1ª liga · 36708 · Ev 323618</td></tr>
-<tr class="trackhead"><td colspan="5">R07 · Imola</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:19.923</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:20.104</td><td class="piloto">RarinLace115014</td><td class="gap">+0.181s</td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:20.168</td><td class="piloto">LordSangreal</td><td class="gap">+0.245s</td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
-<tr class="trackhead"><td colspan="5">R08 · Monaco</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:15.645</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323620</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:16.105</td><td class="piloto">iARTwx</td><td class="gap">+0.460s</td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:16.469</td><td class="piloto">LordSangreal</td><td class="gap">+0.824s</td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
-<tr class="trackhead"><td colspan="5">R09 · Spain</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:18.188</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:18.422</td><td class="piloto">LordSangreal</td><td class="gap">+0.234s</td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:18.475</td><td class="piloto">iARTwx</td><td class="gap">+0.287s</td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
-<tr class="trackhead"><td colspan="5">R10 · Canada</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:14.678</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323622</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:15.427</td><td class="piloto">LordSangreal</td><td class="gap">+0.749s</td><td class="gap">1ª liga · 36708 · Ev 323622</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:16.070</td><td class="piloto">ifinin1</td><td class="gap">+1.392s</td><td class="gap">1ª liga · 36708 · Ev 323622</td></tr>
-<tr class="trackhead"><td colspan="5">R11 · Austria</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:08.419</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323623</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:08.563</td><td class="piloto">RarinLace115014</td><td class="gap">+0.144s</td><td class="gap">2ª liga · 37642 · Ev 330359</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:08.845</td><td class="piloto">LordSangreal</td><td class="gap">+0.426s</td><td class="gap">2ª liga · 37642 · Ev 330359</td></tr>
-<tr class="trackhead"><td colspan="5">R12 · Great Britain</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:30.965</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:32.277</td><td class="piloto">iARTwx</td><td class="gap">+1.312s</td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:32.331</td><td class="piloto">LordSangreal</td><td class="gap">+1.366s</td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
-<tr class="trackhead"><td colspan="5">R13 · Belgium</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:49.614</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:49.943</td><td class="piloto">RarinLace115014</td><td class="gap">+0.329s</td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:50.412</td><td class="piloto">LordSangreal</td><td class="gap">+0.798s</td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
-<tr class="trackhead"><td colspan="5">R14 · Hungary</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:22.981</td><td class="piloto">iARTwx</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:24.077</td><td class="piloto">RarinLace115014</td><td class="gap">+1.096s</td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:25.036</td><td class="piloto">Bhering20</td><td class="gap">+2.055s</td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
-<tr class="trackhead"><td colspan="5">R15 · Netherlands</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:14.683</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:14.837</td><td class="piloto">Bhering20</td><td class="gap">+0.154s</td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:14.840</td><td class="piloto">RarinLace115014</td><td class="gap">+0.157s</td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
-<tr class="trackhead"><td colspan="5">R16 · Monza</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:24.137</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:24.206</td><td class="piloto">ifinin1</td><td class="gap">+0.069s</td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:24.291</td><td class="piloto">RarinLace115014</td><td class="gap">+0.154s</td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
-<tr class="trackhead"><td colspan="5">R17 · Azerbaijan</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:46.333</td><td class="piloto">ifinin1</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:46.351</td><td class="piloto">Bhering20</td><td class="gap">+0.018s</td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:47.841</td><td class="piloto">LordSangreal</td><td class="gap">+1.508s</td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
-<tr class="trackhead"><td colspan="5">R18 · Singapore</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:36.000</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:36.552</td><td class="piloto">ifinin1</td><td class="gap">+0.552s</td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:37.594</td><td class="piloto">Bhering20</td><td class="gap">+1.594s</td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
-<tr class="trackhead"><td colspan="5">R19 · Texas</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:38.523</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:40.025</td><td class="piloto">ifinin1</td><td class="gap">+1.502s</td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:40.550</td><td class="piloto">Bhering20</td><td class="gap">+2.027s</td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
-<tr class="trackhead"><td colspan="5">R20 · Mexico</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:20.097</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:20.444</td><td class="piloto">RarinLace115014</td><td class="gap">+0.347s</td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:21.142</td><td class="piloto">Bhering20</td><td class="gap">+1.045s</td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
-<tr class="trackhead"><td colspan="5">R21 · Brazil</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:13.315</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:13.482</td><td class="piloto">RarinLace115014</td><td class="gap">+0.167s</td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:13.930</td><td class="piloto">Bhering20</td><td class="gap">+0.615s</td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
-<tr class="trackhead"><td colspan="5">R22 · Las Vegas</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:36.524</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:36.712</td><td class="piloto">ifinin1</td><td class="gap">+0.188s</td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:37.683</td><td class="piloto">iARTwx</td><td class="gap">+1.159s</td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
-<tr class="trackhead"><td colspan="5">R23 · Lusail</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:27.024</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:27.883</td><td class="piloto">RarinLace115014</td><td class="gap">+0.859s</td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:27.907</td><td class="piloto">LordSangreal</td><td class="gap">+0.883s</td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
-<tr class="trackhead"><td colspan="5">R24 · Abu Dhabi</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:28.812</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:29.055</td><td class="piloto">Bhering20</td><td class="gap">+0.243s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:29.188</td><td class="piloto">RarinLace115014</td><td class="gap">+0.376s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
-</table></div>
-<h2>⏱️ Melhores Voltas de Quali por Pista — Top 3</h2>
-<div class="sub">Mesma ordem de pistas (R01–R24). Melhor volta de quali de cada piloto por pista, top 3 no mesmo formato da tabela de corrida. 1ª liga = 36708 (finalizada) · 2ª liga = 37642 (em andamento).</div>
-<div class="tbl"><table><tr><th></th><th>Tempo</th><th>Piloto</th><th>Dif.</th><th>Liga/Evento</th></tr>
-<tr class="trackhead"><td colspan="5">R01 · Australia</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:20.550</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330349</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:20.723</td><td class="piloto">ifinin1</td><td class="gap">+0.173s</td><td class="gap">2ª liga · 37642 · Ev 330349</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:20.859</td><td class="piloto">iARTwx</td><td class="gap">+0.309s</td><td class="gap">2ª liga · 37642 · Ev 330349</td></tr>
-<tr class="trackhead"><td colspan="5">R02 · China</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:35.489</td><td class="piloto">WuillyFox</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:35.800</td><td class="piloto">RarinLace115014</td><td class="gap">+0.311s</td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:36.928</td><td class="piloto">ifinin1</td><td class="gap">+1.439s</td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
-<tr class="trackhead"><td colspan="5">R03 · Japan</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:31.812</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:31.884</td><td class="piloto">RarinLace115014</td><td class="gap">+0.072s</td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:32.209</td><td class="piloto">ifinin1</td><td class="gap">+0.397s</td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
-<tr class="trackhead"><td colspan="5">R04 · Bahrain</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:31.070</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:31.172</td><td class="piloto">LordSangreal</td><td class="gap">+0.102s</td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:31.276</td><td class="piloto">iARTwx</td><td class="gap">+0.206s</td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
-<tr class="trackhead"><td colspan="5">R05 · Saudi Arabia</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:32.534</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:32.819</td><td class="piloto">iARTwx</td><td class="gap">+0.285s</td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:32.857</td><td class="piloto">ifinin1</td><td class="gap">+0.323s</td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
-<tr class="trackhead"><td colspan="5">R06 · Miami</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:29.199</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:29.221</td><td class="piloto">ifinin1</td><td class="gap">+0.022s</td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:29.719</td><td class="piloto">iARTwx</td><td class="gap">+0.520s</td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
-<tr class="trackhead"><td colspan="5">R07 · Imola</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:17.294</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:18.139</td><td class="piloto">RarinLace115014</td><td class="gap">+0.845s</td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:18.302</td><td class="piloto">iARTwx</td><td class="gap">+1.008s</td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
-<tr class="trackhead"><td colspan="5">R08 · Monaco</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:13.831</td><td class="piloto">iARTwx</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:13.948</td><td class="piloto">RarinLace115014</td><td class="gap">+0.117s</td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:14.317</td><td class="piloto">LordSangreal</td><td class="gap">+0.486s</td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
-<tr class="trackhead"><td colspan="5">R09 · Spain</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:14.690</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:14.865</td><td class="piloto">LordSangreal</td><td class="gap">+0.175s</td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:15.341</td><td class="piloto">iARTwx</td><td class="gap">+0.651s</td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
-<tr class="trackhead"><td colspan="5">R10 · Canada</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:12.084</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330358</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:12.523</td><td class="piloto">Bhering20</td><td class="gap">+0.439s</td><td class="gap">2ª liga · 37642 · Ev 330358</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:12.577</td><td class="piloto">RarinLace115014</td><td class="gap">+0.493s</td><td class="gap">1ª liga · 36708 · Ev 323622</td></tr>
-<tr class="trackhead"><td colspan="5">R11 · Austria</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:06.485</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330359</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:06.717</td><td class="piloto">RarinLace115014</td><td class="gap">+0.232s</td><td class="gap">2ª liga · 37642 · Ev 330359</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:06.845</td><td class="piloto">LordSangreal</td><td class="gap">+0.360s</td><td class="gap">1ª liga · 36708 · Ev 323623</td></tr>
-<tr class="trackhead"><td colspan="5">R12 · Great Britain</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:29.413</td><td class="piloto">iARTwx</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:29.628</td><td class="piloto">ifinin1</td><td class="gap">+0.215s</td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:30.196</td><td class="piloto">Bhering20</td><td class="gap">+0.783s</td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
-<tr class="trackhead"><td colspan="5">R13 · Belgium</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:46.874</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:47.719</td><td class="piloto">RarinLace115014</td><td class="gap">+0.845s</td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:48.349</td><td class="piloto">iARTwx</td><td class="gap">+1.475s</td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
-<tr class="trackhead"><td colspan="5">R14 · Hungary</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:20.720</td><td class="piloto">iARTwx</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:20.847</td><td class="piloto">RarinLace115014</td><td class="gap">+0.127s</td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:22.098</td><td class="piloto">Bhering20</td><td class="gap">+1.378s</td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
-<tr class="trackhead"><td colspan="5">R15 · Netherlands</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:12.760</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:13.436</td><td class="piloto">RarinLace115014</td><td class="gap">+0.676s</td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:13.922</td><td class="piloto">Bhering20</td><td class="gap">+1.162s</td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
-<tr class="trackhead"><td colspan="5">R16 · Monza</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:31.251</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:31.317</td><td class="piloto">ifinin1</td><td class="gap">+0.066s</td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:31.403</td><td class="piloto">RarinLace115014</td><td class="gap">+0.152s</td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
-<tr class="trackhead"><td colspan="5">R17 · Azerbaijan</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:43.652</td><td class="piloto">ifinin1</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:44.545</td><td class="piloto">Bhering20</td><td class="gap">+0.893s</td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:44.710</td><td class="piloto">LordSangreal</td><td class="gap">+1.058s</td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
-<tr class="trackhead"><td colspan="5">R18 · Singapore</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:33.462</td><td class="piloto">ifinin1</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:33.963</td><td class="piloto">LordSangreal</td><td class="gap">+0.501s</td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:33.983</td><td class="piloto">Bhering20</td><td class="gap">+0.521s</td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
-<tr class="trackhead"><td colspan="5">R19 · Texas</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:35.849</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:36.237</td><td class="piloto">ifinin1</td><td class="gap">+0.388s</td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:37.412</td><td class="piloto">Bhering20</td><td class="gap">+1.563s</td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
-<tr class="trackhead"><td colspan="5">R20 · Mexico</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:18.299</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:18.315</td><td class="piloto">LordSangreal</td><td class="gap">+0.016s</td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:18.896</td><td class="piloto">ifinin1</td><td class="gap">+0.597s</td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
-<tr class="trackhead"><td colspan="5">R21 · Brazil</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:23.088</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:23.237</td><td class="piloto">Bhering20</td><td class="gap">+0.149s</td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:23.501</td><td class="piloto">LordSangreal</td><td class="gap">+0.413s</td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
-<tr class="trackhead"><td colspan="5">R22 · Las Vegas</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:47.345</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:47.369</td><td class="piloto">Bhering20</td><td class="gap">+0.024s</td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:47.763</td><td class="piloto">iARTwx</td><td class="gap">+0.418s</td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
-<tr class="trackhead"><td colspan="5">R23 · Lusail</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:25.484</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:25.853</td><td class="piloto">iARTwx</td><td class="gap">+0.369s</td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:26.478</td><td class="piloto">Bhering20</td><td class="gap">+0.994s</td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
-<tr class="trackhead"><td colspan="5">R24 · Abu Dhabi</td></tr>
-<tr><td class="medal">🥇</td><td class="time">1:26.140</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
-<tr><td class="medal">🥈</td><td class="time">1:26.425</td><td class="piloto">iARTwx</td><td class="gap">+0.285s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
-<tr><td class="medal">🥉</td><td class="time">1:26.540</td><td class="piloto">LordSangreal</td><td class="gap">+0.400s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
+<h2>🏁 Top 3 por Pista — Quali + Corrida</h2>
+<div class="sub">Na ordem das corridas (R01–R24). Top 3 voltas de quali e de corrida por pista, diferenças dentro de cada sessão. 1ª liga = 36708 (finalizada) · 2ª liga = 37642 (em andamento).</div>
+<div class="tbl"><table><tr><th></th><th>Sessão</th><th>Tempo</th><th>Piloto</th><th>Dif.</th><th>Liga/Evento</th></tr>
+<tr class="trackhead"><td colspan="6">R01 · Australia</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:20.550</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330349</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:20.723</td><td class="piloto">ifinin1</td><td class="gap">+0.173s</td><td class="gap">2ª liga · 37642 · Ev 330349</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:20.859</td><td class="piloto">iARTwx</td><td class="gap">+0.309s</td><td class="gap">2ª liga · 37642 · Ev 330349</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:24.045</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323613</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:25.924</td><td class="piloto">ifinin1</td><td class="gap">+1.879s</td><td class="gap">1ª liga · 36708 · Ev 323613</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:34.601</td><td class="piloto">RarinLace115014</td><td class="gap">+10.556s</td><td class="gap">1ª liga · 36708 · Ev 323613</td></tr>
+<tr class="trackhead"><td colspan="6">R02 · China</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:35.489</td><td class="piloto">WuillyFox</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:35.800</td><td class="piloto">RarinLace115014</td><td class="gap">+0.311s</td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:36.928</td><td class="piloto">ifinin1</td><td class="gap">+1.439s</td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:37.674</td><td class="piloto">WuillyFox</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:38.498</td><td class="piloto">RarinLace115014</td><td class="gap">+0.824s</td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:39.422</td><td class="piloto">LordSangreal</td><td class="gap">+1.748s</td><td class="gap">2ª liga · 37642 · Ev 330350</td></tr>
+<tr class="trackhead"><td colspan="6">R03 · Japan</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:31.812</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:31.884</td><td class="piloto">RarinLace115014</td><td class="gap">+0.072s</td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:32.209</td><td class="piloto">ifinin1</td><td class="gap">+0.397s</td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:33.808</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:34.274</td><td class="piloto">RarinLace115014</td><td class="gap">+0.466s</td><td class="gap">1ª liga · 36708 · Ev 323615</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:34.655</td><td class="piloto">Bhering20</td><td class="gap">+0.847s</td><td class="gap">2ª liga · 37642 · Ev 330351</td></tr>
+<tr class="trackhead"><td colspan="6">R04 · Bahrain</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:31.070</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:31.172</td><td class="piloto">LordSangreal</td><td class="gap">+0.102s</td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:31.276</td><td class="piloto">iARTwx</td><td class="gap">+0.206s</td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:33.917</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:34.069</td><td class="piloto">LordSangreal</td><td class="gap">+0.152s</td><td class="gap">2ª liga · 37642 · Ev 330352</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:34.247</td><td class="piloto">RarinLace115014</td><td class="gap">+0.330s</td><td class="gap">1ª liga · 36708 · Ev 323616</td></tr>
+<tr class="trackhead"><td colspan="6">R05 · Saudi Arabia</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:32.534</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:32.819</td><td class="piloto">iARTwx</td><td class="gap">+0.285s</td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:32.857</td><td class="piloto">ifinin1</td><td class="gap">+0.323s</td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:33.944</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:35.145</td><td class="piloto">RarinLace115014</td><td class="gap">+1.201s</td><td class="gap">2ª liga · 37642 · Ev 330353</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:35.523</td><td class="piloto">RarinLace115014</td><td class="gap">+1.579s</td><td class="gap">1ª liga · 36708 · Ev 323617</td></tr>
+<tr class="trackhead"><td colspan="6">R06 · Miami</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:29.199</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:29.221</td><td class="piloto">ifinin1</td><td class="gap">+0.022s</td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:29.719</td><td class="piloto">iARTwx</td><td class="gap">+0.520s</td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:32.215</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:32.470</td><td class="piloto">iARTwx</td><td class="gap">+0.255s</td><td class="gap">2ª liga · 37642 · Ev 330354</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:32.601</td><td class="piloto">Bhering20</td><td class="gap">+0.386s</td><td class="gap">1ª liga · 36708 · Ev 323618</td></tr>
+<tr class="trackhead"><td colspan="6">R07 · Imola</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:17.294</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:18.139</td><td class="piloto">RarinLace115014</td><td class="gap">+0.845s</td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:18.302</td><td class="piloto">iARTwx</td><td class="gap">+1.008s</td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:19.923</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:20.104</td><td class="piloto">RarinLace115014</td><td class="gap">+0.181s</td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:20.168</td><td class="piloto">LordSangreal</td><td class="gap">+0.245s</td><td class="gap">2ª liga · 37642 · Ev 330355</td></tr>
+<tr class="trackhead"><td colspan="6">R08 · Monaco</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:13.831</td><td class="piloto">iARTwx</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:13.948</td><td class="piloto">RarinLace115014</td><td class="gap">+0.117s</td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:14.317</td><td class="piloto">LordSangreal</td><td class="gap">+0.486s</td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:15.645</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323620</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:16.105</td><td class="piloto">iARTwx</td><td class="gap">+0.460s</td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:16.469</td><td class="piloto">LordSangreal</td><td class="gap">+0.824s</td><td class="gap">2ª liga · 37642 · Ev 330356</td></tr>
+<tr class="trackhead"><td colspan="6">R09 · Spain</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:14.690</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:14.865</td><td class="piloto">LordSangreal</td><td class="gap">+0.175s</td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:15.341</td><td class="piloto">iARTwx</td><td class="gap">+0.651s</td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:18.188</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:18.422</td><td class="piloto">LordSangreal</td><td class="gap">+0.234s</td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:18.475</td><td class="piloto">iARTwx</td><td class="gap">+0.287s</td><td class="gap">2ª liga · 37642 · Ev 330357</td></tr>
+<tr class="trackhead"><td colspan="6">R10 · Canada</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:12.084</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330358</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:12.523</td><td class="piloto">Bhering20</td><td class="gap">+0.439s</td><td class="gap">2ª liga · 37642 · Ev 330358</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:12.577</td><td class="piloto">RarinLace115014</td><td class="gap">+0.493s</td><td class="gap">1ª liga · 36708 · Ev 323622</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:14.678</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323622</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:15.427</td><td class="piloto">LordSangreal</td><td class="gap">+0.749s</td><td class="gap">1ª liga · 36708 · Ev 323622</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:16.070</td><td class="piloto">ifinin1</td><td class="gap">+1.392s</td><td class="gap">1ª liga · 36708 · Ev 323622</td></tr>
+<tr class="trackhead"><td colspan="6">R11 · Austria</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:06.485</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330359</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:06.717</td><td class="piloto">RarinLace115014</td><td class="gap">+0.232s</td><td class="gap">2ª liga · 37642 · Ev 330359</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:06.845</td><td class="piloto">LordSangreal</td><td class="gap">+0.360s</td><td class="gap">1ª liga · 36708 · Ev 323623</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:08.419</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323623</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:08.563</td><td class="piloto">RarinLace115014</td><td class="gap">+0.144s</td><td class="gap">2ª liga · 37642 · Ev 330359</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:08.845</td><td class="piloto">LordSangreal</td><td class="gap">+0.426s</td><td class="gap">2ª liga · 37642 · Ev 330359</td></tr>
+<tr class="trackhead"><td colspan="6">R12 · Great Britain</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:29.413</td><td class="piloto">iARTwx</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:29.628</td><td class="piloto">ifinin1</td><td class="gap">+0.215s</td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:30.196</td><td class="piloto">Bhering20</td><td class="gap">+0.783s</td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:30.965</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:32.277</td><td class="piloto">iARTwx</td><td class="gap">+1.312s</td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:32.331</td><td class="piloto">LordSangreal</td><td class="gap">+1.366s</td><td class="gap">2ª liga · 37642 · Ev 330360</td></tr>
+<tr class="trackhead"><td colspan="6">R13 · Belgium</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:46.874</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:47.719</td><td class="piloto">RarinLace115014</td><td class="gap">+0.845s</td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:48.349</td><td class="piloto">iARTwx</td><td class="gap">+1.475s</td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:49.614</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:49.943</td><td class="piloto">RarinLace115014</td><td class="gap">+0.329s</td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:50.412</td><td class="piloto">LordSangreal</td><td class="gap">+0.798s</td><td class="gap">2ª liga · 37642 · Ev 330361</td></tr>
+<tr class="trackhead"><td colspan="6">R14 · Hungary</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:20.720</td><td class="piloto">iARTwx</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:20.847</td><td class="piloto">RarinLace115014</td><td class="gap">+0.127s</td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:22.098</td><td class="piloto">Bhering20</td><td class="gap">+1.378s</td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:22.981</td><td class="piloto">iARTwx</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:24.077</td><td class="piloto">RarinLace115014</td><td class="gap">+1.096s</td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:25.036</td><td class="piloto">Bhering20</td><td class="gap">+2.055s</td><td class="gap">1ª liga · 36708 · Ev 323626</td></tr>
+<tr class="trackhead"><td colspan="6">R15 · Netherlands</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:12.760</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:13.436</td><td class="piloto">RarinLace115014</td><td class="gap">+0.676s</td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:13.922</td><td class="piloto">Bhering20</td><td class="gap">+1.162s</td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:14.683</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:14.837</td><td class="piloto">Bhering20</td><td class="gap">+0.154s</td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:14.840</td><td class="piloto">RarinLace115014</td><td class="gap">+0.157s</td><td class="gap">1ª liga · 36708 · Ev 323627</td></tr>
+<tr class="trackhead"><td colspan="6">R16 · Monza</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:31.251</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:31.317</td><td class="piloto">ifinin1</td><td class="gap">+0.066s</td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:31.403</td><td class="piloto">RarinLace115014</td><td class="gap">+0.152s</td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:24.137</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:24.206</td><td class="piloto">ifinin1</td><td class="gap">+0.069s</td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:24.291</td><td class="piloto">RarinLace115014</td><td class="gap">+0.154s</td><td class="gap">1ª liga · 36708 · Ev 323628</td></tr>
+<tr class="trackhead"><td colspan="6">R17 · Azerbaijan</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:43.652</td><td class="piloto">ifinin1</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:44.545</td><td class="piloto">Bhering20</td><td class="gap">+0.893s</td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:44.710</td><td class="piloto">LordSangreal</td><td class="gap">+1.058s</td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:46.333</td><td class="piloto">ifinin1</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:46.351</td><td class="piloto">Bhering20</td><td class="gap">+0.018s</td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:47.841</td><td class="piloto">LordSangreal</td><td class="gap">+1.508s</td><td class="gap">1ª liga · 36708 · Ev 323629</td></tr>
+<tr class="trackhead"><td colspan="6">R18 · Singapore</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:33.462</td><td class="piloto">ifinin1</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:33.963</td><td class="piloto">LordSangreal</td><td class="gap">+0.501s</td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:33.983</td><td class="piloto">Bhering20</td><td class="gap">+0.521s</td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:36.000</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:36.552</td><td class="piloto">ifinin1</td><td class="gap">+0.552s</td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:37.594</td><td class="piloto">Bhering20</td><td class="gap">+1.594s</td><td class="gap">1ª liga · 36708 · Ev 323630</td></tr>
+<tr class="trackhead"><td colspan="6">R19 · Texas</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:35.849</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:36.237</td><td class="piloto">ifinin1</td><td class="gap">+0.388s</td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:37.412</td><td class="piloto">Bhering20</td><td class="gap">+1.563s</td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:38.523</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:40.025</td><td class="piloto">ifinin1</td><td class="gap">+1.502s</td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:40.550</td><td class="piloto">Bhering20</td><td class="gap">+2.027s</td><td class="gap">1ª liga · 36708 · Ev 323631</td></tr>
+<tr class="trackhead"><td colspan="6">R20 · Mexico</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:18.299</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:18.315</td><td class="piloto">LordSangreal</td><td class="gap">+0.016s</td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:18.896</td><td class="piloto">ifinin1</td><td class="gap">+0.597s</td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:20.097</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:20.444</td><td class="piloto">RarinLace115014</td><td class="gap">+0.347s</td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:21.142</td><td class="piloto">Bhering20</td><td class="gap">+1.045s</td><td class="gap">1ª liga · 36708 · Ev 323632</td></tr>
+<tr class="trackhead"><td colspan="6">R21 · Brazil</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:23.088</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:23.237</td><td class="piloto">Bhering20</td><td class="gap">+0.149s</td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:23.501</td><td class="piloto">LordSangreal</td><td class="gap">+0.413s</td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:13.315</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:13.482</td><td class="piloto">RarinLace115014</td><td class="gap">+0.167s</td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:13.930</td><td class="piloto">Bhering20</td><td class="gap">+0.615s</td><td class="gap">1ª liga · 36708 · Ev 323633</td></tr>
+<tr class="trackhead"><td colspan="6">R22 · Las Vegas</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:47.345</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:47.369</td><td class="piloto">Bhering20</td><td class="gap">+0.024s</td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:47.763</td><td class="piloto">iARTwx</td><td class="gap">+0.418s</td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:36.524</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:36.712</td><td class="piloto">ifinin1</td><td class="gap">+0.188s</td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:37.683</td><td class="piloto">iARTwx</td><td class="gap">+1.159s</td><td class="gap">1ª liga · 36708 · Ev 323634</td></tr>
+<tr class="trackhead"><td colspan="6">R23 · Lusail</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:25.484</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:25.853</td><td class="piloto">iARTwx</td><td class="gap">+0.369s</td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:26.478</td><td class="piloto">Bhering20</td><td class="gap">+0.994s</td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:27.024</td><td class="piloto">Bhering20</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:27.883</td><td class="piloto">RarinLace115014</td><td class="gap">+0.859s</td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:27.907</td><td class="piloto">LordSangreal</td><td class="gap">+0.883s</td><td class="gap">1ª liga · 36708 · Ev 323635</td></tr>
+<tr class="trackhead"><td colspan="6">R24 · Abu Dhabi</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sq">QUALI</span></td><td class="time">1:26.140</td><td class="piloto">RarinLace115014</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sq">QUALI</span></td><td class="time">1:26.425</td><td class="piloto">iARTwx</td><td class="gap">+0.285s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sq">QUALI</span></td><td class="time">1:26.540</td><td class="piloto">LordSangreal</td><td class="gap">+0.400s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
+<tr><td class="medal">🥇</td><td><span class="sr">CORRIDA</span></td><td class="time">1:28.812</td><td class="piloto">LordSangreal</td><td class="gap"></td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
+<tr><td class="medal">🥈</td><td><span class="sr">CORRIDA</span></td><td class="time">1:29.055</td><td class="piloto">Bhering20</td><td class="gap">+0.243s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
+<tr><td class="medal">🥉</td><td><span class="sr">CORRIDA</span></td><td class="time">1:29.188</td><td class="piloto">RarinLace115014</td><td class="gap">+0.376s</td><td class="gap">1ª liga · 36708 · Ev 323636</td></tr>
 </table></div>
 </div>
-<div class="footer"><b>F1 25</b> · Ligas Racenet 36708 (finalizada) e 37642 (em andamento) · corrida: tempos de volta em sessão de corrida · quali: top 3 de quali por pista</div>
+</div>
+<div class="footer"><b>F1 25</b> · Ligas Racenet 36708 (finalizada) e 37642 (em andamento) · corrida: tempos de volta em sessão de corrida · top 3 quali + corrida por pista</div>
 </div>
 </body>
 </html>
